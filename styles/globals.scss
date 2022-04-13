@@ -911,37 +911,6 @@ textarea {
 
 // text animate
 
-.text-animate {
-  display: inline-block;
-  opacity: 0;
-  animation: dropIn 1s forwards;
-  animation-delay: 1s;
-  min-width: 10px;
-}
-
-.text-animate-hover {
-  min-width: 10px;
-  display: inline-block;
-  animation-fill-mode: both;
-}
-
-@keyframes dropIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@for $i from 1 through 35 {
-  .text-animate._#{$i} {
-    animation-delay: #{$i / 10}s;
-  }
-}
-
 .fade-in {
   -webkit-animation: fade-in 7s cubic-bezier(0.2, 0.6, 0.2, 1);
   -moz-animation: fade-in 7s cubic-bezier(0.2, 0.6, 0.2, 1);

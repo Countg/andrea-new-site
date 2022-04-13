@@ -34,16 +34,6 @@ export default function About() {
     [bottomRef]
   );
 
-  const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['W', 'h', 'a', 't', '', 'W', 'e'];
-  const aboutArray = ['W', 'h', 'o', '', 'W', 'e'];
-
-  useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover');
-    }, 4000);
-  }, []);
-
   return (
     <section id='about'>
       <div className='company-title'>
