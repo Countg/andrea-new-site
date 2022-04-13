@@ -796,6 +796,11 @@ a {
     grid-template-columns: 1.2fr 1fr;
     grid-template-areas: 'form text';
   }
+  @include ipad() {
+    gap: 1em;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-areas: 'form text';
+  }
 }
 
 .contact-text {
