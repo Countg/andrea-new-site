@@ -284,6 +284,7 @@ a {
   h2 {
     font-family: Visby;
     font-weight: bolder;
+    position: relative;
     color: $logo-color;
     filter: opacity(50%);
     font-size: 5em;
@@ -587,6 +588,7 @@ a {
     filter: opacity(50%);
     font-size: 5em;
     text-align: center;
+    position: relative;
     &::after {
       content: 'Are.';
       font-family: Visby;
