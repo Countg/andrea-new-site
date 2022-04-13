@@ -866,6 +866,10 @@ a {
   border: 0;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
   font-family: Visby;
+  @include ipad {
+    height: 40px;
+    margin: 0.2em 0;
+  }
 }
 
 .contact-form input[name='phone'] {
@@ -875,6 +879,10 @@ a {
   border: 0;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
   font-family: Visby;
+  @include ipad {
+    height: 40px;
+    margin: 0.2em 0;
+  }
 }
 
 .contact-form input[type='email'] {
@@ -884,6 +892,10 @@ a {
   border: 0;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
   font-family: Visby;
+  @include ipad {
+    height: 40px;
+    margin: 0.2em 0;
+  }
 }
 
 textarea {
