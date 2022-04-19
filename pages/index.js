@@ -7,7 +7,7 @@ import Contact from '../Components/Contact/Contact';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title='Market Your Dream - Home'>
       <Header />
       <About />
       <Contact />

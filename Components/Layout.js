@@ -7,9 +7,9 @@ import { useRouter } from 'next/router';
 export default function Layout({ children, ...customMeta }) {
   const router = useRouter();
   const meta = {
-    title: 'Andrea McDonald',
+    title: 'Market Your Dream',
     description: `Be where the world is going `,
-    image: '',
+    image: '/Logo_1.svg',
     type: 'website',
     ...customMeta,
   };
@@ -22,17 +22,17 @@ export default function Layout({ children, ...customMeta }) {
         <meta content={meta.description} name='description' />
         <meta
           property='og:url'
-          content={`https://gavinstephens.ca${router.asPath}`}
+          content={`https://marketyourdream.ca${router.asPath}`}
         />
         <link
           rel='canonical'
-          href={`https://gavinstephens.ca${router.asPath}`}
+          href={`https://marketyourdream.ca${router.asPath}`}
         />
 
         <meta property='og:type' content={meta.type} />
         <meta
           property='og:site_name'
-          content='Andrea MacDonald: Be where the world is going'
+          content='Market Your Dream: Be where the world is going'
         />
         <meta property='og:description' content={meta.description} />
         <meta property='og:title' content={meta.title} />
