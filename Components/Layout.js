@@ -9,7 +9,7 @@ export default function Layout({ children, ...customMeta }) {
   const meta = {
     title: 'Market Your Dream',
     description: `Be where the world is going `,
-    image: '/Logo_1.svg',
+    image: '/Logo_1@2x.png',
     type: 'website',
     ...customMeta,
   };
