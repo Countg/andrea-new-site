@@ -1,5 +1,6 @@
 import react, { useRef, useEffect } from 'react';
 import { useAnimation, motion } from 'framer-motion';
+import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 
 const squareVariants = {
@@ -63,7 +64,7 @@ export default function Header() {
       </div>
 
       <div className='header-overlay'></div>
-      <img src='/images/christin-hume-Hcfwew744z4-unsplash.jpg' />
+      <img src='/images/christin-hume-Hcfwew744z4-unsplash@2x.png' />
     </motion.div>
   );
 }
