@@ -3,6 +3,9 @@
 const nextConfig = {
   reactStrictMode: true,
   module: {
+    images: {
+      formats: ['image/avif', 'image/webp'],
+    },
     rules: [
       {
         test: /\.s[ac]ss$/i,
