@@ -94,7 +94,7 @@ export default function About() {
               next level.{' '}
             </p>
 
-            <p>Andrea and team are dedicated to all your marketing needs</p>
+            <p>Andrea and team are dedicated to all your marketing needs!</p>
           </div>
           <div
             className={

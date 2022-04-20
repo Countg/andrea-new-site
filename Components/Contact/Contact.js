@@ -85,18 +85,7 @@ export default function Contact() {
             required
           />
           {errors.email && <p>Please check the Email</p>}
-          <input
-            {...register('phone', {
-              required: true,
-              pattern: '[0-9]{3}-[0-9]{3}-[0-9]{4}',
-              minLength: 7,
-              maxLength: 10,
-            })}
-            placeholder='Phone Number *'
-            type='tel'
-            required
-          />
-          {errors.phone && <p>Please enter a Phone Number</p>}
+
           <textarea
             {...register('message')}
             placeholder='Type Your Message Here *'

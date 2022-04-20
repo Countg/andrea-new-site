@@ -347,16 +347,17 @@ a {
   background-color: rgba(240, 240, 240, 0.1);
 
   h3 {
-    color: $accent-color;
+    color: $secondary-color;
     filter: opacity(70%);
     font-family: Visby;
     font-size: 1.5em;
   }
   p {
-    filter: opacity(60%);
+    filter: opacity(80%);
     font-family: Visby;
     font-style: normal;
     font-size: 1.2em;
+    color: $secondary-color;
   }
   .underline {
     border: none;
@@ -375,7 +376,7 @@ a {
       left: 0;
       right: 100%;
       bottom: -5px;
-      background: $accent-color;
+      background: $secondary-color;
       height: 1px;
       transition-property: left right;
       transition-duration: 0.3s;
@@ -502,16 +503,16 @@ a {
   background-color: rgba(240, 240, 240, 0.3);
   margin: 0 auto;
   h3 {
-    color: $accent-color;
+    color: $secondary-color;
     filter: opacity(70%);
     font-size: 1.5em;
     text-align: left;
     font-family: Visby;
     @include desktop() {
-      text-align: right;
+      text-align: center;
     }
     @include tablet() {
-      text-align: right;
+      text-align: center;
     }
   }
   p {
@@ -520,11 +521,12 @@ a {
     font-style: normal;
     font-size: 1.2em;
     text-align: left;
+    color: $secondary-color;
     @include desktop() {
-      text-align: right;
+      text-align: center;
     }
     @include tablet() {
-      text-align: right;
+      text-align: center;
     }
   }
 }
@@ -802,7 +804,7 @@ a {
   width: 90%;
   margin: 0 auto;
   h2 {
-    color: $accent-color;
+    color: $secondary-color;
     filter: opacity(70%);
     font-family: Visby;
     font-size: 1.5em;
@@ -811,7 +813,7 @@ a {
     font-family: Visby;
     font-style: normal;
     font-size: 1.2em;
-    color: $accent-color;
+    color: $secondary-color;
     filter: opacity(70%);
   }
   @include desktop() {

@@ -3,7 +3,7 @@ import sendgrid from '@sendgrid/mail';
 sendgrid.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
 
 async function sendMail(req, res) {
-  const { firstName, lastName, email, phone, message } = req.body;
+  const { firstName, lastName, email, message } = req.body;
   try {
     await sendgrid.send({
       to: 'andrea@marketyourdream.ca',
@@ -13,7 +13,6 @@ async function sendMail(req, res) {
       <h2>Contact info:</h2>
       <p>Name: ${firstName} ${lastName}</p>
       <p>Email: ${email}</p>
-      <p>Phone Number: ${phone} </p>
       <p>Message: ${message}</p>
       </div>`,
     });

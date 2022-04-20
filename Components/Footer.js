@@ -19,7 +19,7 @@ export default function Footer() {
 
         <div className='footer-item'>
           <h2>Contact Us </h2>
-          <h3>Andrea MacDonald</h3>
+          <h3>Andrea McDonald</h3>
           <a href='mailto:andrea@marketyourdream.ca' className='rightUnderline'>
             andrea@marketdream.ca
           </a>
