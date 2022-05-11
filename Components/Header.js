@@ -64,7 +64,7 @@ export default function Header() {
       </div>
 
       <div className='header-overlay'></div>
-      <img src='/images/christin-hume-Hcfwew744z4-unsplash@2x.png' />
+      <img src='/images/christin-hume-hBuwVLcYTnA-unsplash.jpg' />
     </motion.div>
   );
 }

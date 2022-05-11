@@ -51,10 +51,8 @@ export default function Contact() {
         <div className='contact-text'>
           <h2>Tell Us About Your Project</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Dignissim enim sit amet venenatis urna cursus. Aliquet eget sit amet
-            tellus cras adipiscing.
+            Let’s get working on your dream. Share a little bit about your
+            project and we can get started.
           </p>
         </div>
         <form className='contact-form' onSubmit={handleSubmit(onSubmit)}>

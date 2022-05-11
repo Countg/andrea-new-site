@@ -21,7 +21,7 @@ export default function Footer() {
           <h2>Contact Us </h2>
           <h3>Andrea McDonald</h3>
           <a href='mailto:andrea@marketyourdream.ca' className='rightUnderline'>
-            andrea@marketdream.ca
+            andrea@marketyourdream.ca
           </a>
         </div>
       </div>

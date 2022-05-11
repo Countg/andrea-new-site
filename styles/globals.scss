@@ -774,13 +774,15 @@ a {
 
 // contact form
 .contact-container {
-  min-height: 50vh;
+  min-height: 20vh;
   width: 100%;
   background-color: $logo-color;
+  @include tablet() {
+  }
 }
 
 .contact-wrapper {
-  width: 100%;
+  width: 90%;
   text-align: left;
   margin: 0 auto;
   padding: 2em 0;
@@ -811,6 +813,7 @@ a {
   }
   p {
     font-family: Visby;
+
     font-style: normal;
     font-size: 1.2em;
     color: $secondary-color;
@@ -820,10 +823,16 @@ a {
     grid-area: text;
     width: 60%;
     margin: 0;
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.8;
+    }
   }
   @include tablet() {
     grid-area: text;
-    width: 60%;
+    width: 80%;
     margin: 0;
   }
 }
