@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Navbar from './Navbar';
-import Footer from './Footer';
+
 import { useRouter } from 'next/router';
 
 export default function Layout({ children, ...customMeta }) {
@@ -46,9 +45,8 @@ export default function Layout({ children, ...customMeta }) {
           <meta property='article:published_time' content={meta.date} />
         )}
       </Head>
-      <Navbar />
+
       <div>{children}</div>
-      <Footer />
     </div>
   );
 }
